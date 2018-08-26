@@ -1,0 +1,29 @@
+input, textarea{
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+input[type="submit"]{
+	width: auto;
+}
+
+textarea {
+	height: 170px;
+}
+
+input:focus, textarea:focus{
+	outline: 1px solid #777;
+}
+
+.input-control{
+	position: relative;
+}
+
+.input-control label{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
